@@ -1,0 +1,20 @@
+{
+    "campsites": [
+        {
+            "id": 1,
+            "title": "Minicamping vlakbij de kust in Callantsoog",
+            "image": "public/assets/3299bc9e17d650d6e86ea19855552391.jpg",
+            "link": "https://campspace.com/nl/s/kamperen-tussen-de-dieren-vlak-bij-de-kust_5014?pitchTypeId=2819&"
+        },{
+            "id": 2,
+            "title": "Natuurcamping op 't Heuvelken in Limburg",
+            "image": "public/assets/21f34d712b9ca2c01d54ceaecce54f31.jpg",
+            "link": "https://campspace.com/nl/s/relax-rust-en-ruimte-op-t-heuvelken_6622?pitchTypeId=4784&"
+        },{
+            "id": 3,
+            "title": "Kamperen in ons bos aan rand natuurgebied 'Cadettenkamp' - Noord Brabant",
+            "image": "public/assets/b7a0ea71d5ecc143a3b605b5bc2312e3.jpeg",
+            "link": "https://campspace.com/nl/s/kamperen-in-ons-bos-aan-rand-natuurgebied-cadettenkamp-noord-brabant_4336?pitchTypeId=2030&startDate=&endDate=&numberOfAdults=2&numberOfChildren=0&filter%5Baccommodations%5D%5B0%5D=bring_caravan&filter%5Baccommodations%5D%5B1%5D=bring_motorhome&filter%5Baccommodations%5D%5B2%5D=bring_minivan&filter%5Baccommodations%5D%5B3%5D=bring_caravan&filter%5Baccommodations%5D%5B4%5D=bring_motorhome&filter%5Baccommodations%5D%5B5%5D=bring_minivan"
+        }
+    ]
+}

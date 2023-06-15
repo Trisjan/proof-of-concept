@@ -1,5 +1,5 @@
 // Importeer express uit de node_modules map
-import express, { response } from "express";
+import express from "express";
 
 // Maak een nieuwe express app
 const app = express();
