@@ -29,6 +29,7 @@ const addCSS = () => {
         display: flex;
         align-items: center;
         justify-content: center;
+        object-fit: cover;
     }
     
     .campspace_widget {
@@ -39,7 +40,6 @@ const addCSS = () => {
         grid-row-gap: 0px;
     
         width: 50%;
-        height: 375px;
     
         border: 3px solid;
         border-radius: 2.4vw;
