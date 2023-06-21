@@ -79,18 +79,19 @@ const addCSS = () => {
     .campspace_widget__info_book {
         display: flex;
         flex-direction: column;
-        align-items: center;
     }
     
     .campspace_widget__info_price {
         color: var(--csMediumGreyShaded);
         font-size: 0.7vw;
         font-weight: 500;
+        padding-left: 0.5vw;
+        padding-bottom: 0.4rem;
     }
     
     .campspace_widget__info_book a {
         text-decoration: none;
-        width: 80%;
+        width: 100%;
     }
     
     .campspace_widget__info_button {
@@ -120,7 +121,8 @@ const createWidget = (data) => {
             <img src="https://campspace.com/media/detail/uploads/space/hc/_2/73/hc_2739426a1a6d37b13fe8e2ae837ad324.jpeg" alt="example of accomodation" loading="lazy">
         </section>
         <section class="campspace_widget__info">
-            <img class="campspace_widget__info_logo" src="assets/campspace-logo.png" alt="campspace logo">
+            <img class="campspace_widget__info_logo" src="https://www.duurzaam-ondernemen.nl/wordpress/wp-content/uploads/2021/08/campspace.png" 
+            alt="campspace logo">
             <span class="campspace_widget__info_title">Glamping Sandkjærgård</span>
             <div class="campspace_widget__info_book">
                 <span class="campspace_widget__info_price">starting from €${data[1].price} a night</span>
