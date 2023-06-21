@@ -30,6 +30,8 @@ const addCSS = () => {
         align-items: center;
         justify-content: center;
         object-fit: cover;
+
+        min-height: 50vh;
     }
     
     .campspace_widget {
@@ -39,20 +41,18 @@ const addCSS = () => {
         grid-column-gap: 0px;
         grid-row-gap: 0px;
     
-        width: 50%;
+        width: 60%;
     
         border: 3px solid;
         border-radius: 2.4vw;
-    
-        position: absolute;
-        left: 28%;
-        top: 28%;
+        
+        background-color: var(--csWhite);
     }
     
     .campspace_widget__image img {
         width: 100%;
         height: 100%;
-        border-bottom-left-radius: 2.3vw;
+        border-bottom-left-radius: 2.2vw;
         border-top-left-radius: 2.2vw;
         object-fit: cover;
     }
@@ -84,7 +84,7 @@ const addCSS = () => {
     
     .campspace_widget__info_price {
         color: var(--csMediumGreyShaded);
-        font-size: 0.6vw;
+        font-size: 0.7vw;
         font-weight: 500;
     }
     
