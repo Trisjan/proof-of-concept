@@ -113,7 +113,7 @@ console.log("test");
 const createWidget = (data) => {
     const section = document.createElement("section");
     section.className = "campspace-widget";
-    // I want to load a image from the json file
+    // I want to load data from the api json file
     const widgetContent = `
     <article class="campspace_widget">
         <section class="campspace_widget__image">
@@ -148,6 +148,5 @@ fetch("https://campspace-dummy-data-bb26a5c22467.herokuapp.com/hosts")
         }
     })
     .then((data) => {
-        console.log("Het werkt!", data);
         createWidget(data);
     });
