@@ -19,6 +19,7 @@ Bij deze opdracht heb ik een widget gemaakt met de huisstijl van campspace. Camp
 
 ## Gebruik
 Door middel van de volgende script kan je de widget in jouw site implementeren!
+
 `<script src="https://cdn.rawgit.com/Trisjan/proof-of-concept/main/widget.js"></script>`
 
 ## Kenmerken
