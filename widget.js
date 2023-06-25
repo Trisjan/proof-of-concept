@@ -108,8 +108,6 @@ const addCSS = () => {
     document.head.appendChild(styleElement);
 };
 
-console.log("test");
-
 // Function to create and append the widget to the body
 const createWidget = (data) => {
     const section = document.createElement("section");
